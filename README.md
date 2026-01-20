@@ -1,16 +1,32 @@
-# React + Vite
+#E-Ticaret Projesi 
+Merhaba! Bu proje, React ile geliştirdiğim bir e-ticaret uygulamasıdır. Frontend geliştirme becerilerimi geliştirmek ve modern web teknolojilerini öğrenmek için yaptım.
+Projede Neler Var?
+Bu projede temel bir e-ticaret sitesinde bulunması gereken özellikleri yapmaya çalıştım:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#Ürün Listeleme: Anasayfada tüm ürünleri görebiliyorsunuz
+Ürün Detay Sayfası: Ürüne tıkladığınızda detaylı bilgileri görüntüleyebiliyorsunuz
+Sepet İşlemleri:
 
-Currently, two official plugins are available:
+#Ürünleri sepete ekleyip çıkarabiliyorsunuz
+Sepetteki ürün miktarını artırıp azaltabiliyorsunuz
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## React Compiler
+#Favori Ürünler: Beğendiğiniz ürünleri favorilere ekleyip çıkarabiliyorsunuz
+Kategori Filtreleme: Ürünleri kategorilerine göre filtreleyebiliyorsunuz (Erkek, Kadın vb.)
+Responsive Tasarım: Mobil, tablet ve masaüstü cihazlarda düzgün çalışıyor
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+#Kullandığım Teknolojiler
 
-## Expanding the ESLint configuration
+React - Projenin temeli
+Redux Toolkit - State yönetimi için kullandım, sepet ve favori işlemlerini burada yönettim
+React Router - Sayfa geçişleri için
+LocalStorage - Sepet ve favori verilerini tarayıcıda saklamak için kullandım, böylece sayfa yenilendiğinde veriler kaybolmuyor
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+#Öğrendiklerim
+Bu proje boyunca şunları öğrendim:
+
+Redux Toolkit ile state yönetimi nasıl yapılır
+LocalStorage'ı React projelerinde nasıl kullanabilirim
+React Router ile sayfa yönlendirmelerini nasıl yaparım
+Responsive tasarım nasıl yapılır
+Component tabanlı düşünmeyi geliştirdim
