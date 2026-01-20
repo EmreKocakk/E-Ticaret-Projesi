@@ -1,5 +1,5 @@
 #E-Ticaret Projesi 
-Merhaba! Bu proje, React ile geliştirdiğim bir e-ticaret uygulamasıdır. Frontend geliştirme becerilerimi geliştirmek ve modern web teknolojilerini öğrenmek için yaptım.
+Merhaba Bu proje, React ile geliştirdiğim bir e-ticaret uygulamasıdır. Frontend geliştirme becerilerimi geliştirmek ve modern web teknolojilerini öğrenmek için yaptım.
 Projede Neler Var?
 Bu projede temel bir e-ticaret sitesinde bulunması gereken özellikleri yapmaya çalıştım:
 
