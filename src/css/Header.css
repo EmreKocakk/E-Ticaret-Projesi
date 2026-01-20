@@ -1,0 +1,165 @@
+.header-wrap {
+  width: 80%;
+  margin: auto;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left {
+  display: flex;
+  gap: 1rem;
+  margin-left: 2rem;
+  align-items: center;
+}
+
+.header-right {
+  display: flex;
+  gap: 1rem;
+  margin-right: 2rem;
+  align-items: center;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  padding: 0.5rem;
+}
+
+.link:hover {
+  color: #667eea;
+  transform: translateY(-2px);
+}
+
+.icons {
+  font-size: 2.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 0.5rem;
+}
+
+.icons:hover {
+  color: #667eea;
+  transform: scale(1.1);
+}
+
+
+@media (max-width: 1024px) {
+  .header-wrap {
+    width: 90%;
+  }
+
+  .header-left {
+    margin-left: 1rem;
+    gap: 0.8rem;
+  }
+
+  .header-right {
+    margin-right: 1rem;
+    gap: 0.8rem;
+  }
+
+  .link {
+    font-size: 0.95rem;
+    padding: 0.4rem;
+  }
+
+  .icons {
+    font-size: 1.25rem;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .header-wrap {
+    width: 95%;
+    height: auto;
+    padding: 1rem 0;
+    gap: 1rem;
+  }
+
+  .header-left {
+    margin-left: 0;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .header-right {
+    margin-right: 0;
+    gap: 1.2rem;
+    justify-content: center;
+  }
+
+  .link {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.6rem;
+  }
+
+  .icons {
+    font-size: 1.4rem;
+    padding: 0.4rem;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .header-wrap {
+    width: 100%;
+    padding: 0.8rem 0.5rem;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .header-left {
+    width: 100%;
+    gap: 0.6rem;
+    justify-content: center;
+  }
+
+  .header-right {
+    width: 100%;
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  .link {
+    font-size: 0.85rem;
+    padding: 0.4rem 0.5rem;
+    white-space: nowrap;
+  }
+
+  .icons {
+    font-size: 1.5rem;
+    padding: 0.3rem;
+  }
+}
+
+
+@media (max-width: 360px) {
+  .header-wrap {
+    padding: 0.6rem 0.3rem;
+    gap: 0.6rem;
+  }
+
+  .header-left {
+    gap: 0.4rem;
+    flex-wrap: wrap;
+  }
+
+  .header-right {
+    gap: 0.8rem;
+  }
+
+  .link {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.4rem;
+  }
+
+  .icons {
+    font-size: 1.3rem;
+    padding: 0.25rem;
+  }
+}
