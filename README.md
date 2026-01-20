@@ -1,19 +1,25 @@
 E-Ticaret Projesi 
-Merhaba Bu proje, React ile geliştirdiğim bir e-ticaret uygulamasıdır. Frontend geliştirme becerilerimi geliştirmek ve modern web teknolojilerini öğrenmek için yaptım.
+
+Proje Linki = https://e-ticaret-projesi.netlify.app/
+
+Merhaba 
+Bu proje, React ile geliştirdiğim bir e-ticaret uygulamasıdır. Frontend geliştirme becerilerimi geliştirmek ve modern web teknolojilerini öğrenmek için yaptım.
+
 Projede Neler Var?
 Bu projede temel bir e-ticaret sitesinde bulunması gereken özellikleri yapmaya çalıştım:
 
 Ürün Listeleme:
 Anasayfada tüm ürünleri görebiliyorsunuz
-Ürün Detay Sayfası: 
-Ürüne tıkladığınızda detaylı bilgileri görüntüleyebiliyorsunuz
-Sepet İşlemleri:
 
+Ürün Detay Sayfası:
+Ürüne tıkladığınızda detaylı bilgileri görüntüleyebiliyorsunuz
+
+Sepet İşlemleri:
 Ürünleri sepete ekleyip çıkarabiliyorsunuz
 Sepetteki ürün miktarını artırıp azaltabiliyorsunuz
 
 
-#Favori Ürünler: 
+Favori Ürünler: 
 Beğendiğiniz ürünleri favorilere ekleyip çıkarabiliyorsunuz
 Kategori Filtreleme:
 Ürünleri kategorilerine göre filtreleyebiliyorsunuz (Erkek, Kadın vb.)
